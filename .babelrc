@@ -1,6 +1,5 @@
 {
-  "presets": ["env"],
-  "retainLines": true,
+  "presets": ["es2015"],
   "plugins": [
     "transform-react-jsx",
     "syntax-object-rest-spread",
