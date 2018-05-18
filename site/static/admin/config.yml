@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch : master
+  branch : step-01-add-a-menu
   publish_mode: editorial_workflow
   
 media_folder: "img/uploads" # Folder where user uploaded files should go
