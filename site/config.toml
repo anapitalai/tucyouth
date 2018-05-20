@@ -6,28 +6,28 @@ title = "APEC APP"
   description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
 
 [[menu.main]]
-    name = "About"
+    name = "ABOUT"
     url  = "/about"
     weight = 1
 
 [[menu.main]]
-    name = "Shopify"
-    url  = "/food"
+    name = "CONTACTS"
+    url  = "/contact"
     weight = 2
 
 [[menu.main]]
-    name = "Email"
-    url  = "/programmes"
+    name = "EMAIL"
+    url  = "/email-us"
     weight = 3
 
 [[menu.main]]
-    name = "All SME Accounts"
-    url  = "/contact"
+    name = "SME ACC"
+    url  = "/sme-accounts"
     weight = 4
     
 [[menu.main]]
-    name = "Contact Us"
-    url  = "/contact"
+    name = "CREATE NEW SHOPIFY"
+    url  = "/new-shopify"
     weight = 5
 
 
