@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Taraka UC Youths"
+title = "APEC SME WEBAPP"
 
 [params]
   description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
@@ -11,17 +11,23 @@ title = "Taraka UC Youths"
     weight = 1
 
 [[menu.main]]
-    name = "Food"
+    name = "Shopify"
     url  = "/food"
     weight = 2
 
 [[menu.main]]
-    name = "Programmes"
+    name = "Email"
     url  = "/programmes"
     weight = 3
 
 [[menu.main]]
-    name = "Make A Reservation"
+    name = "All SME Accounts"
     url  = "/contact"
     weight = 4
+    
+[[menu.main]]
+    name = "Contact Us"
+    url  = "/contact"
+    weight = 5
+
 
