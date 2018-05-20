@@ -11,18 +11,18 @@ title = "APEC APP"
     weight = 1
 
 [[menu.main]]
-    name = "CONTACTS"
+    name = "CONTACT"
     url  = "/contact"
     weight = 2
 
 [[menu.main]]
     name = "EMAIL"
-    url  = "/email-us"
+    url  = "/email"
     weight = 3
 
 [[menu.main]]
     name = "SME ACC"
-    url  = "/sme-accounts"
+    url  = "/sme-account"
     weight = 4
     
 [[menu.main]]
