@@ -29,5 +29,9 @@ title = "APEC APP"
     name = "CREATE NEW SHOPIFY"
     url  = "/new-shopify"
     weight = 5
+[[menu.main]]
+    name = "FOOD"
+    url  = "/food"
+    weight = 6
 
 
