@@ -17,21 +17,18 @@ title = "APEC APP"
 
 [[menu.main]]
     name = "EMAIL"
-    url  = "/email"
+    url  = "/food"
     weight = 3
 
 [[menu.main]]
     name = "SME ACC"
-    url  = "/sme-account"
+    url  = "/drinks"
     weight = 4
     
 [[menu.main]]
     name = "CREATE NEW SHOPIFY"
-    url  = "/new-shopify"
+    url  = "/gallery"
     weight = 5
-[[menu.main]]
-    name = "FOOD"
-    url  = "/food"
-    weight = 6
+
 
 
