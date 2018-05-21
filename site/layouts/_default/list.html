@@ -26,7 +26,7 @@
         {{ end }}
       </section>
     {{ end }}
-  {{ else if eq .Section "Blog" }}
+  {{ else if eq .Section "Drinks" }}
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
       <section>
         {{ if eq "categories" $taxonomyname }}
