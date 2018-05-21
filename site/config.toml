@@ -21,5 +21,11 @@ title = "SME HUB"
     url  = "/marketplace"
     weight = 3
 
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog"
+    weight = 4
+
+
 
 
