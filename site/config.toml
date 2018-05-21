@@ -20,10 +20,6 @@ title = "SME HUB"
     url  = "/drinks"
     weight = 4
     
-[[menu.main]]
-    name = "Markets"
-    url  = "/markets"
-    weight = 3
 
     
 
