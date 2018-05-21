@@ -6,30 +6,30 @@ backend:
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
 collections:
-  - name: items
-    label: "Items" # Used in the UI, ie.: "New Post"
-    folder: "site/content/items" # The path to the folder where the documents are stored
+  - name: marketplace
+    label: "Market Place" # Used in the UI, ie.: "New Post"
+    folder: "site/content/marketplace" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Name of Item", name: "title", widget: "string"}
+      - {label: "Name of Market", name: "title", widget: "string"}
       #- {label: "Supported Meals", name: "categories", widget: "list", default: ["lunch", "dinner"]}
       - {label: "Image Gallery", name: "Image", widget: "image"}
-      - {label: "Description", name: "type", widget: "string"}
-      - {label: "Price", name: "price", widget: "string"}
-  #- name: drinks
-    # label: "Drink Item" # Used in the UI, ie.: "New Post"
-    #folder: "site/content/drinks" # The path to the folder where the documents are stored
-    #create: true # Allow users to create new documents in this collection
-    #fields: # The fields each document in this collection have
-     # - {label: "Name of Drink", name: "title", widget: "string"}
-      #- {label: "Drink Marker", name: "categories", widget: "hidden", default: ["drinks"]}
-      #- {label: "Ingredients/Description", name: "description", widget: "text"}
-      #- {label: "Type of Drink", name: "type", widget: "string", default: "beer"}
-      #- {label: "Price", name: "price", widget: "string"} 
-  #- name: gallery
-   # label: "Gallery Image" # Used in the UI, ie.: "New Post"
-    #folder: "site/content/gallery" # The path to the folder where the documents are stored
-    #create: true # Allow users to create new documents in this collection
-    #fields: # The fields each document in this collection have
-    #  - {label: "Title", name: "title", widget: "string"}
-     # - {label: "Gallery Image", name: "image", widget: "image"}
+      - {label: "Description", name: "Decription", widget: "string"}
+      - {label: "OwnerDetails", name: "Details", widget: "text"}
+  - name: products
+    label: "Product Sold" # Used in the UI, ie.: "New Post"
+    folder: "site/content/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Name of Product", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Catagory", name: "type", widget: "string", default: "local"}
+      - {label: "Price", name: "price", widget: "string"} 
+  - name: blog
+    label: "Gallery Image" # Used in the UI, ie.: "New Post"
+    folder: "site/content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Gallery Image", name: "image", widget: "image"}
+      - {label: "Content", name: "content", widget: "text"}
