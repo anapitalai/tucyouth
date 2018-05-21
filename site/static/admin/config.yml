@@ -26,9 +26,9 @@ collections:
       - {label: "Catagory", name: "type", widget: "string", default: "local"}
       - {label: "Price", name: "price", widget: "string"} 
  
-  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Blog" # Used in the UI, ie.: "New Post"
-    folder: "_blogs" # The path to the folder where the documents are stored
+  - name: "food" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Food" # Used in the UI, ie.: "New Post"
+    folder: "food" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
