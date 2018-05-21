@@ -6,29 +6,20 @@ title = "SME HUB"
   description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
 
 [[menu.main]]
-    name = "ABOUT"
+    name = "About"
     url  = "/about"
     weight = 1
 
 [[menu.main]]
-    name = "CONTACT"
+    name = "Contact"
     url  = "/contact"
     weight = 2
 
-[[menu.main]]
-    name = "EMAIL"
-    url  = "/food"
-    weight = 3
-
-[[menu.main]]
-    name = "SME ACC"
-    url  = "/drinks"
-    weight = 4
     
 [[menu.main]]
-    name = "CREATE NEW SHOPIFY"
-    url  = "/gallery"
-    weight = 5
+    name = "Create Market Place"
+    url  = "/marketplace"
+    weight = 3
 
 
 
