@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch : step-01-add-a-menu
+  publish_mode: editorial_workflow
+  
+media_folder: "img/uploads" # Folder where user uploaded files should go
+
+collections:
+  - name: marketplace
+    label: "Market Place" # Used in the UI, ie.: "New Post"
+    folder: "site/content/marketplace" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Name of Market", name: "title", widget: "string"}
+      #- {label: "Supported Meals", name: "categories", widget: "list", default: ["lunch", "dinner"]}
+      - {label: "Image Gallery", name: "Image", widget: "image"}
+      - {label: "Description", name: "Decription", widget: "string"}
+      - {label: "OwnerDetails", name: "Details", widget: "text"}
+  - name: products
+    label: "Product Sold" # Used in the UI, ie.: "New Post"
+    folder: "site/content/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Name of Product", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Catagory", name: "type", widget: "string", default: "local"}
+      - {label: "Price", name: "price", widget: "string"} 
+ 
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog" # Used in the UI, ie.: "New Post"
+    folder: "_blogs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "text"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+
