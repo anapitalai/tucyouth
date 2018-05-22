@@ -4,6 +4,6 @@ title = "Markets"
 url = "/markets"
 +++
 
-## Makrkets in PNG
+## Markets in PNG
 
 ---

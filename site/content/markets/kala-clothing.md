@@ -1,6 +1,7 @@
 ---
 title: Kala Clothing
 description: This is the Kala Clothing Shop
-link: kalaclothing
+link: http://www.unitech.ac.pg
 ---
 
+this is the marketing site
