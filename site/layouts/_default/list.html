@@ -4,34 +4,40 @@
         <h1>{{ .Section }}</h1>
         {{ if eq .Section "markets"}}
           {{range .Pages}}
-          <section>
-              {{.Title}} <br>
-          {{.URL}} <br>
-          <a href="{{.Params.link}}">{{.Title}}</a> <br>
-          {{.Params.description}}
+      
 
-          </section>
+            <div class="row">
+              <div class="col-sm-6 col-md-4 market">
+                  {{.Title}} <br>
+                  {{.URL}} <br>
+                 <button class="btn btn-info" href="{{.Params.link}}">{{.Title}}</button>
+              </div>
+            </div>
+         <hr>
+
           {{end}}
 
           {{else if eq .Section "blog"}}
 
           {{range .Pages}}
-          <section>
-              {{.Title}} <br>
-          {{.URL}} <br>
-          {{.Params.description}}
-          {{.Params.price}}
-
-          </section>
+          
+          <div class="row">
+              <div class="col-sm-6 col-md-4 blog">
+                  {{.Title}} <br>
+                  {{.URL}} <br>
+                 <button class="btn btn-primary" href="{{.Params.link}}">{{.Title}}</button>
+              </div>
+          </div>
           {{end}}
           
-         {{.URL}}
+        
         {{end}}
 
        
      
 
 </div>
+
 <!--
 <div class="content container {{ .Title }} {{ .Section | urlize }}">
   <h1>{{ .Section }}</h1>
