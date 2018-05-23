@@ -1,6 +1,5 @@
 ---
 title: Locality Map
-image: /img/gallery/bilum.jpg
+image: /src/img/gallery/zen-poitras-b99161.netlify.com_-pixel-2-.png
 ---
 
-this is map page
