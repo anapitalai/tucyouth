@@ -1,9 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "PNG BILUMS"
+title = "BILUMS"
+png = "Papua New Guinea"
 
 [params]
-  description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
+  description = "APEC Challenge"
 
 [[menu.main]]
     name = "About"
@@ -30,17 +31,10 @@ title = "PNG BILUMS"
     url  = "/gallery"
     weight = 2
 
-
 [[menu.main]]
-    name = "Feedback"
-    url  = "/feedback"
+    name = "Maps"
+    url  = "/maps"
     weight = 5
-
-
-[[menu.main]]
-    name = "Map"
-    url  = "/map"
-    weight = 6
 
 
     

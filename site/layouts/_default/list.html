@@ -3,53 +3,50 @@
     <div class="content container {{ .Title }} {{ .Section | urlize }}">
         <h1>{{ .Section }}</h1>
         {{ if eq .Section "markets"}}
-          {{range .Pages}}
+          {{ range .Pages }}
       
 
             <div class="row">
               <div class="col-sm-6 col-md-4 market">
-                  {{.Title}} <br>
-                  {{.URL}} <br>
-                 <button class="btn btn-info" href="{{.Params.link}}">{{.Title}}</button>
+                  {{ .Title }} <br>
+                  {{ .URL }} <br>
+                 <button class="btn btn-info" href="{{ .Params.link }}">{{.Title}}</button>
               </div>
             </div>
          <hr>
 
-          {{end}}
+          {{ end }}
 
-          {{else if eq .Section "blog"}}
+          {{ else if eq .Section "blog" }}
 
-          {{range .Pages}}
+          {{ range .Pages }}
           
           <div class="row">
               <div class="col-sm-6 col-md-4 blog">
-                  {{.Title}} <br>
-                  {{.URL}} <br>
-                 <button class="btn btn-primary" href="{{.Params.link}}">{{.Title}}</button>
+                  {{ .Title }} <br>
+                  {{ .URL }} <br>
+                 <button class="btn btn-primary" href="{{ .Params.link }}">{{ .Title }}</button>
               </div>
           </div>
-          {{end}}
+          {{ end }}
+        
+          {{ else if eq .Section "maps" }}
 
-
-          {{else if eq .Section "feedback"}}
-
-          {{range .Pages}}
+          {{ range .Pages }}
           
           <div class="row">
               <div class="col-sm-6 col-md-4 blog">
-                  {{.Title}} <br>
-                  {{.URL}} <br>
-                 <button class="btn btn-primary" href="{{.Params.link}}">{{.Title}}</button>
+                  {{ .Params.title }} <br>
+                  {{ .Params.image }} <br>
+                  {{ .URL }}
               </div>
           </div>
-          {{end}}
+          {{ end }}
+
+          
 
 
-          {{ else if eq .Section "map" }}
-           {{.Content }}
-          <div id="mapid"></div>
-
-          {{ else if eq .Section "gallery" }}
+        {{ else if eq .Section "gallery" }}
     <div class="gallery-carousel">
       {{ range where .Pages "Section" "gallery" }}
         <div><img src="{{ .Params.image }}"/></div>
@@ -61,8 +58,8 @@
       <button class="next half-button">Next</button>
     </div>
           
-          
-        {{end}}
+   
+        {{ end }}
 
       
 
