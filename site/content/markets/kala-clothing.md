@@ -1,7 +1,6 @@
 ---
-title: Wosera Bilum
+title: Wosera Traditional Bilum
 description: Welcome to Wosera Bilum shop.
-link: https://pngiankala.company
+link: 'https://pngiankala.company'
 ---
 
-this is the marketing site
