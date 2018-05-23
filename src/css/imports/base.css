@@ -681,7 +681,7 @@ html {
   h1 {
     color: #fff;
     margin: 0 0 .35em 0;
-    font-family: "Rock Salt", cursive;
+    font-family:Arial;
     font-size: 3.25rem;
     transition: color .2s ease;
     -webkit-font-smoothing: antialiased;

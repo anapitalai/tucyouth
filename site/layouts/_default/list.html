@@ -8,9 +8,9 @@
 
             <div class="row">
               <div class="col-sm-6 col-md-4 market">
-                  {{ .Title }} <br>
-                  {{ .URL }} <br>
-                 <button class="btn btn-info" href="{{ .Params.link }}">{{.Title}}</button>
+                 <h2> {{ .Title }}</h2> <br>
+                 
+                 <a href="{{ .Params.link }}">{{ .Title }}</a>
               </div>
             </div>
          <hr>
@@ -23,9 +23,14 @@
           
           <div class="row">
               <div class="col-sm-6 col-md-4 blog">
-                  {{ .Title }} <br>
-                  {{ .URL }} <br>
-                 <button class="btn btn-primary" href="{{ .Params.link }}">{{ .Title }}</button>
+                  <h2>{{.Title}}</h2>
+                  <hr> <br>
+                  {{ .Params.description }} 
+                  <hr>   <br>
+                  
+              
+
+                 <a href="{{ .Params.link }}">{{ .Title }}</a>
               </div>
           </div>
           {{ end }}
@@ -37,6 +42,7 @@
           <div class="row">
               <div class="col-sm-6 col-md-4 blog">
                   {{ .Params.title }} <br>
+                  <img src="{{ .Params.image }}" alt="">
                   {{ .Params.image }} <br>
                   {{ .URL }}
               </div>
@@ -47,9 +53,10 @@
 
 
         {{ else if eq .Section "gallery" }}
+      
     <div class="gallery-carousel">
-      {{ range where .Pages "Section" "gallery" }}
-        <div><img src="{{ .Params.image }}"/></div>
+       {{ range where .Pages "Section" "gallery" }}
+        <a href="#"><div><img src="{{ .Params.image }}"/></div></a>
       {{ end }}
     </div>
 
@@ -59,12 +66,7 @@
     </div>
           
    
-        {{ end }}
-
-      
-
-       
-     
+        {{ end }}  
 
 </div>
 

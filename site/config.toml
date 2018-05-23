@@ -1,10 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "BILUMS"
-png = "Papua New Guinea"
+
 
 [params]
-  description = "APEC Challenge"
+  description = "String Bags in Papua New Guinea"
 
 [[menu.main]]
     name = "About"
@@ -14,7 +14,7 @@ png = "Papua New Guinea"
 
     
 [[menu.main]]
-    name = "Markets"
+    name = "E-Markets"
     url  = "/markets"
     weight = 4
 
@@ -31,10 +31,9 @@ png = "Papua New Guinea"
     url  = "/gallery"
     weight = 2
 
-[[menu.main]]
-    name = "Maps"
-    url  = "/maps"
-    weight = 5
+
+
+
 
 
     

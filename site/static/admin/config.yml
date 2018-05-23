@@ -24,7 +24,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Province", name: "origin", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Type Bilum,", name: "type", widget: "string"}
+      #- {label: "Type Bilum,", name: "type", widget: "string"}
       - {label: "Price", name: "price", widget: "string"} 
 
   - name: gallery

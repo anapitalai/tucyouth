@@ -1,7 +1,7 @@
 ---
-title: NICTC Ecommerce
-description: This is the Kala nictc ecommerce
-link: https://nictconsultants.com
+title: Kaninimbit Bilum Shop
+description: This is the Kaninimbit Shop
+link: https://pngiankala.company
 ---
 
 Nictc marketing site
