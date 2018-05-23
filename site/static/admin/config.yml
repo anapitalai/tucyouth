@@ -35,7 +35,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Gallery Image", name: "image", widget: "image"} 
 
-    - name: maps
+  - name: maps
     label: "Maps" # Used in the UI, ie.: "New Post"
     folder: "site/content/maps" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
