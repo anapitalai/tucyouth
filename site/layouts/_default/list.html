@@ -29,9 +29,42 @@
               </div>
           </div>
           {{end}}
+
+
+          {{else if eq .Section "feedback"}}
+
+          {{range .Pages}}
           
-        
+          <div class="row">
+              <div class="col-sm-6 col-md-4 blog">
+                  {{.Title}} <br>
+                  {{.URL}} <br>
+                 <button class="btn btn-primary" href="{{.Params.link}}">{{.Title}}</button>
+              </div>
+          </div>
+          {{end}}
+
+
+          {{ else if eq .Section "map" }}
+           {{.Content }}
+          <div id="mapid"></div>
+
+          {{ else if eq .Section "gallery" }}
+    <div class="gallery-carousel">
+      {{ range where .Pages "Section" "gallery" }}
+        <div><img src="{{ .Params.image }}"/></div>
+      {{ end }}
+    </div>
+
+    <div class="buttons">
+      <button class="prev half-button">Prev</button>
+      <button class="next half-button">Next</button>
+    </div>
+          
+          
         {{end}}
+
+      
 
        
      

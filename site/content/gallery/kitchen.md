@@ -1,5 +1,5 @@
 ---
 title: kitchen
-image: /img/gallery/Z.jpg
+image: /img/gallery/hlands.jpg
 ---
 

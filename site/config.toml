@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "SME HUB"
+title = "PNG BILUMS"
 
 [params]
   description = "An example website for restaurants built by [@eliwilliamson](https://github.com/eliwilliamson) using [Victor Hugo](https://github.com/netlify/victor-hugo)."
@@ -15,7 +15,7 @@ title = "SME HUB"
 [[menu.main]]
     name = "Markets"
     url  = "/markets"
-    weight = 2
+    weight = 4
 
 
 
@@ -23,6 +23,24 @@ title = "SME HUB"
     name = "Blog"
     url  = "/blog"
     weight = 3
+
+
+[[menu.main]]
+    name = "Gallery"
+    url  = "/gallery"
+    weight = 2
+
+
+[[menu.main]]
+    name = "Feedback"
+    url  = "/feedback"
+    weight = 5
+
+
+[[menu.main]]
+    name = "Map"
+    url  = "/map"
+    weight = 6
 
 
     

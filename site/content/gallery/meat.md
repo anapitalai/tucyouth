@@ -1,5 +1,5 @@
 ---
 title: meat
-image: /img/gallery/photo3.jpg
+image: /img/gallery/wasara.jpg
 ---
 

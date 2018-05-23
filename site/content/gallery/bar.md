@@ -1,5 +1,5 @@
 ---
 title: bar
-image: /img/gallery/photo5.jpg
+image: /img/gallery/bilum.jpg
 ---
 
