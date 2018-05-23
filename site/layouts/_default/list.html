@@ -17,7 +17,7 @@
 
           {{ end }}
 
-          {{ else if eq .Section "blog" }}
+          {{ else if eq .Section "bilumdescription" }}
 
           {{ range .Pages }}
           
@@ -28,7 +28,6 @@
                   {{ .Params.description }} 
                   <hr>   <br>
                   
-              
 
                  <a href="{{ .Params.link }}">{{ .Title }}</a>
               </div>

@@ -16,9 +16,9 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Link", name: "link", widget: "string"} 
 
-  - name: blog
-    label: "Content" # Used in the UI, ie.: "New Post"
-    folder: "site/content/blog" # The path to the folder where the documents are stored
+  - name: bilumdescription
+    label: "Bilum Description" # Used in the UI, ie.: "New Post"
+    folder: "site/content/bilumdescription" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}

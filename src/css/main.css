@@ -1,3 +1,8 @@
 @import "imports/base.css";
 @import "imports/menu.css";
 
+a:hover{background:#123344;
+    font-size: 25px;
+    border-radius: 15px;
+    }
+

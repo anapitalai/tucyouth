@@ -21,8 +21,8 @@ title = "BILUMS"
 
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog"
+    name = "Bilum Description"
+    url  = "/bilumdescription"
     weight = 3
 
 
